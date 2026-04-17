@@ -1,130 +1,99 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Retain CRM • Retain Pelanggan Anda</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-    <style>
-        .hero-bg {
-            background: linear-gradient(135deg, #f97316 0%, #c084fc 100%);
-        }
-
-        .btn-orange {
-            background: #f97316;
-            transition: all 0.3s;
-        }
-
-        .btn-orange:hover {
-            background: #ea580c;
-            transform: scale(1.05);
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Retain CRM • Retain Pelanggan Anda</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <style>
+    .hero-bg { background: linear-gradient(135deg, #f97316 0%, #c084fc 100%); }
+    .btn-orange { background: #f97316; transition: all 0.3s; }
+    .btn-orange:hover { background: #ea580c; transform: scale(1.05); }
+  </style>
 </head>
-
 <body class="bg-gray-50 font-sans">
 
-    <!-- HERO -->
-    <section class="hero-bg text-white">
-        <div class="max-w-6xl mx-auto px-6 py-16 md:py-24 text-center">
-            <div class="inline-flex items-center gap-2 bg-white/20 rounded-full px-5 py-2 text-sm mb-6">
-                <span class="text-xs bg-white text-orange-600 px-3 py-1 rounded-full font-medium">NEW</span>
-                MVP Shopee Ready
-            </div>
-            <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
-                Retain pelanggan Anda<br>dengan sentuhan yang <span class="text-white">personal</span>
-            </h1>
-            <p class="text-xl md:text-2xl text-white/90 mb-10 max-w-2xl mx-auto">
-                Kirim pesan hangat + voucher promo otomatis ke buyer Shopee yang sudah selesai order.<br>
-                Bangun loyalitas tanpa repot chat satu per satu.
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#" onclick="alert('Silakan hubungi kami untuk info lebih lanjut!')"
-                    class="btn-orange text-white px-10 py-5 rounded-3xl text-xl font-semibold flex items-center justify-center gap-3">
-                    <i class="fa-solid fa-comments"></i> Tanya Kami
-                </a>
-                <a href="#waiting-list"
-                    class="border border-white text-white px-10 py-5 rounded-3xl text-xl font-medium hover:bg-white/10">
-                    Daftar Waiting List
-                </a>
-            </div>
+  <!-- HERO -->
+  <section class="hero-bg text-white">
+    <div class="max-w-6xl mx-auto px-6 py-16 md:py-24 text-center">
+      <div class="inline-flex items-center gap-2 bg-white/20 rounded-full px-5 py-2 text-sm mb-6">
+        <span class="text-xs bg-white text-orange-600 px-3 py-1 rounded-full font-medium">NEW</span>
+        MVP Shopee Ready
+      </div>
+      <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+        Retain pelanggan Anda<br>dengan sentuhan yang <span class="text-white">personal</span>
+      </h1>
+      <p class="text-xl md:text-2xl text-white/90 mb-10 max-w-2xl mx-auto">
+        Kirim pesan hangat + voucher promo otomatis ke buyer Shopee yang sudah selesai order.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="#" onclick="alert('Silakan hubungi kami untuk info lebih lanjut!')" 
+           class="btn-orange text-white px-10 py-5 rounded-3xl text-xl font-semibold flex items-center justify-center gap-3">
+          <i class="fa-solid fa-comments"></i> Tanya Kami
+        </a>
+        <a href="#waiting-list" 
+           class="border border-white text-white px-10 py-5 rounded-3xl text-xl font-medium hover:bg-white/10">
+          Daftar Waiting List
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="py-16 md:py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Masih chat buyer satu per satu?</h2>
+      <p class="text-xl text-gray-600">Waktu habis, capek, dan pelanggan kurang terjaga.</p>
+    </div>
+  </section>
+
+  <!-- FITUR -->
+  <section class="py-16 md:py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Retain Pelanggan dengan Mudah</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-3xl p-8 text-center card-hover">
+          <div class="text-5xl mb-6">📨</div>
+          <h3 class="font-semibold text-xl mb-3">Pesan Personal Otomatis</h3>
+          <p class="text-gray-600">Kirim pesan yang terasa hangat dan personal ke ratusan buyer.</p>
         </div>
-    </section>
-
-    <!-- PROBLEM -->
-    <section class="py-16 md:py-20 bg-white">
-        <div class="max-w-5xl mx-auto px-6 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold mb-4">Masih chat buyer satu per satu?</h2>
-            <p class="text-xl text-gray-600">Waktu habis, capek, dan pelanggan kurang terjaga.</p>
+        <div class="bg-white rounded-3xl p-8 text-center card-hover">
+          <div class="text-5xl mb-6">🎟️</div>
+          <h3 class="font-semibold text-xl mb-3">Voucher Otomatis</h3>
+          <p class="text-gray-600">Sertakan promo voucher langsung di pesan retouch.</p>
         </div>
-    </section>
-
-    <!-- FITUR -->
-    <section class="py-16 md:py-20 bg-gray-50">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Retain Pelanggan dengan Mudah</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white rounded-3xl p-8 text-center card-hover">
-                    <div class="text-5xl mb-6">📨</div>
-                    <h3 class="font-semibold text-xl mb-3">Pesan Personal Otomatis</h3>
-                    <p class="text-gray-600">Kirim pesan yang terasa hangat dan personal ke ratusan buyer.</p>
-                </div>
-                <div class="bg-white rounded-3xl p-8 text-center card-hover">
-                    <div class="text-5xl mb-6">🎟️</div>
-                    <h3 class="font-semibold text-xl mb-3">Voucher Otomatis</h3>
-                    <p class="text-gray-600">Sertakan promo voucher langsung di pesan retouch.</p>
-                </div>
-                <div class="bg-white rounded-3xl p-8 text-center card-hover">
-                    <div class="text-5xl mb-6">📊</div>
-                    <h3 class="font-semibold text-xl mb-3">Pantau Hasil Real-time</h3>
-                    <p class="text-gray-600">Lihat seberapa efektif upaya retain pelanggan Anda.</p>
-                </div>
-            </div>
+        <div class="bg-white rounded-3xl p-8 text-center card-hover">
+          <div class="text-5xl mb-6">📊</div>
+          <h3 class="font-semibold text-xl mb-3">Pantau Hasil Real-time</h3>
+          <p class="text-gray-600">Lihat seberapa efektif upaya retain pelanggan Anda.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- WAITING LIST FORM -->
-    <section id="waiting-list" class="py-16 md:py-20 bg-white">
-        <div class="max-w-xl mx-auto px-6">
-            <div class="text-center mb-10">
-                <h2 class="text-4xl font-bold mb-3">Daftar Waiting List</h2>
-                <p class="text-gray-600">Masuk daftar tunggu dan dapatkan akses lebih dulu saat MVP resmi rilis.</p>
-            </div>
+  <!-- GOOGLE FORM WAITING LIST -->
+  <section id="waiting-list" class="py-16 md:py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="text-center mb-10">
+        <h2 class="text-4xl font-bold mb-3">Daftar Waiting List</h2>
+        <p class="text-gray-600">Masuk daftar tunggu dan dapatkan akses lebih dulu saat MVP resmi rilis.</p>
+      </div>
 
-            <form class="bg-gray-50 rounded-3xl p-8 md:p-10 space-y-6">
-                <div>
-                    <label class="block text-sm font-medium mb-2">Nama Lengkap</label>
-                    <input type="text"
-                        class="w-full px-5 py-4 rounded-2xl border border-gray-300 focus:border-orange-500 outline-none"
-                        placeholder="Masukkan nama Anda" required>
-                </div>
-                <div>
-                    <label class="block text-sm font-medium mb-2">Nomor HP (WhatsApp)</label>
-                    <input type="tel"
-                        class="w-full px-5 py-4 rounded-2xl border border-gray-300 focus:border-orange-500 outline-none"
-                        placeholder="0812-3456-7890" required>
-                </div>
-                <div>
-                    <label class="block text-sm font-medium mb-2">Email</label>
-                    <input type="email"
-                        class="w-full px-5 py-4 rounded-2xl border border-gray-300 focus:border-orange-500 outline-none"
-                        placeholder="emailanda@gmail.com" required>
-                </div>
-                <button type="submit"
-                    onclick="event.preventDefault(); alert('Terima kasih! Anda berhasil masuk ke Waiting List Retain CRM 🎉 Kami akan hubungi segera.')"
-                    class="w-full bg-gradient-to-r from-orange-500 to-purple-500 text-white py-5 rounded-3xl text-xl font-semibold">
-                    Daftar Sekarang
-                </button>
-            </form>
-        </div>
-    </section>
+      <!-- Embed Google Form -->
+      <div class="bg-gray-50 rounded-3xl p-6 md:p-10">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfNpbKwt74pZ8VtFGULinV18MulPkF38P7j70nj1GsBijURkg/viewform?embedded=true" 
+                width="100%" height="700" 
+                frameborder="0" marginheight="0" marginwidth="0">
+          Memuat…
+        </iframe>
+      </div>
+    </div>
+  </section>
 
-    <footer class="bg-gray-900 text-white py-12 text-center text-sm">
-        © 2026 Retain CRM • Shopee Retain Agency
-    </footer>
+  <footer class="bg-gray-900 text-white py-12 text-center text-sm">
+    © 2026 Retain CRM • Masih tahap MVP Shopee
+  </footer>
 
 </body>
-
 </html>
